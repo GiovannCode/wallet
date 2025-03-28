@@ -208,3 +208,34 @@ body{
     font-size: 18px;
     font-weight: bold;
 }
+
+
+
+.perfil{
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil form button .btn_edit{
+    background-color: #ccc;
+}
+
+.modal-content{
+    width: 500px;
+    border-radius: 12px;
+    background-color: #28517a;
+}
+.modal-content .modal-header{
+    text-align: center;
+}
+
+.modal-footer{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

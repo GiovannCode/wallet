@@ -9,7 +9,7 @@
 
 <body>
     <div class="cards">
-        <?php
+    <?php
     session_start();
     require_once "db_conexion.php";
     ?>
@@ -27,7 +27,6 @@
         echo'<p>Saldo: <span>'. $campo['saldo'].'</span></p>';
         echo'</div>';
         echo'</div>';
-
     }
 
     

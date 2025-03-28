@@ -15,10 +15,11 @@
         <a href="" class="logo">ChiWallet</a>
         <a href=""><?php echo'<img class="rounded-circle" src="data:image/png;base64,' . base64_encode($_SESSION['imagen']) . '" width="100px" height="100px"/>'
       . '</td>';?></a>
-        <a href="#" class="logo"><?php echo $_SESSION['user']?> </a>
+        <a href="#" class="logo"><?php echo $_SESSION['name']?> </a>
         <nav class="navbar">
             <a href="registrecard.php">Agregar Tarjetas</a>
             <a href="showtarjet.php">Ver mis tarjetas</a>
+            <a href="mi_perfil.php">Mi perfil</a>
             <a href="logout.php">Cerrar Sesion</a>
         </nav>
     </header>

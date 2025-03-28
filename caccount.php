@@ -57,6 +57,8 @@ if (isset($_POST['registrar']))
 	}
     $_SESSION['imagen'] = $img;
     $_SESSION['email'] = $email;     
+    $_SESSION['user'] = $user;
+    $_SESSION['name'] = $name;
 }
 
     

@@ -16,6 +16,7 @@ if (isset($_POST['login'])) {
   $campo = $select->fetch();
 
   if ($count) {         
+    $_SESSION['name'] = $campo['name'];
     $_SESSION['user'] = $campo['user'];
     $_SESSION['email'] = $campo['email'];
     $_SESSION['imagen'] =$campo['imagen'];

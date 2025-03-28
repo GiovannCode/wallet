@@ -35,10 +35,10 @@ if (isset($_POST['registrar']))
 	if (!empty($numtarjeta) && !empty($banco) && !empty($fregistro) && !empty($email)  )	{
 		  
 
-        $sql = $cnnPDO->prepare("INSERT INTO tarjeta (numtarjeta, banco, fregistro, saldo, ctarjeta) VALUES (?, ?, ?, ?, ?)");
-        $sql->execute([$numtarjeta, $banco, $fregistro, $saldo, $email]);
-		unset($sql);
-		unset($cnnPDO);
+            $sql = $cnnPDO->prepare("INSERT INTO tarjeta (numtarjeta, banco, fregistro, saldo, ctarjeta) VALUES (?, ?, ?, ?, ?)");
+            $sql->execute([$numtarjeta, $banco, $fregistro, $saldo, $email]);
+            unset($sql);
+            unset($cnnPDO);
             
     
             
